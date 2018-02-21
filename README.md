@@ -9,6 +9,6 @@ Update the root password with the supplied value.
 
 | how to generate passwords
 
-`# sudo pip install passlib` <\br>
-`# python -c "from passlib.hash import sha512_crypt; import getpass; print sha512_crypt.encrypt(getpass.getpass())"` <\br>
-Enter the password whe  prompted. The output will be the hash to use for the password varible. <\br>
+`# sudo pip install passlib` <br>
+`# python -c "from passlib.hash import sha512_crypt; import getpass; print sha512_crypt.encrypt(getpass.getpass())"` <br>
+Enter the password whe  prompted. The output will be the hash to use for the password varible. <br>
