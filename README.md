@@ -1,7 +1,7 @@
 # update-root-pw
 
 ## playbook layout
-`
+
 - hosts: all
   tasks:
   - name: Change root password
@@ -9,7 +9,6 @@
       name=root 
       update_password=always 
       password="$6$rounds=656000$Il.7J6fa8icfJBRy$DfkyR/9w/KTBXIeRCNl.816BpJZ/6cw3xmRTpn3NeXjoTzogDCW7kvJhP66IJU/GulqmfsLNAklK2uvgqVpMK/"
-`
 
 ## Variables
 `password=`    #hash of password
