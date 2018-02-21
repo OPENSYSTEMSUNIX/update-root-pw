@@ -3,9 +3,9 @@
 Update the root password with the supplied value.
 
 ## Variables
-`password=`       #hash of password
-`name=`           #default root
-`update_password` #default always -- update the password everytime the playbook is run
+- `password=`       #hash of password
+- `name=`           #default root
+- `update_password` #default always -- update the password everytime the playbook is run
 
 ## how to generate passwords
 
