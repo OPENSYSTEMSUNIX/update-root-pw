@@ -1,7 +1,8 @@
 # update-root-pw
 
 ## playbook layout
-`- hosts: all
+`
+- hosts: all
   tasks:
   - name: Change root password
     user: 
@@ -11,7 +12,7 @@
 `
 
 ## Variables
-`password=`    hash of password
+`password=`    #hash of password
 
 ## how to generate passwords
 
