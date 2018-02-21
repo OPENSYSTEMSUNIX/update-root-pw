@@ -11,7 +11,9 @@
       password="$6$rounds=656000$Il.7J6fa8icfJBRy$DfkyR/9w/KTBXIeRCNl.816BpJZ/6cw3xmRTpn3NeXjoTzogDCW7kvJhP66IJU/GulqmfsLNAklK2uvgqVpMK/"
 
 ## Variables
-`password=`    #hash of password
+`password=`       #hash of password
+`name=`           #default root
+`update_password` #default always -- update the password everytime the playbook is run
 
 ## how to generate passwords
 
